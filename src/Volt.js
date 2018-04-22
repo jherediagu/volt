@@ -6,6 +6,7 @@ import { StyleSheet, View } from 'react-native';
 import Title from './components/title/Title';
 // import Menu from './components/menu/Menu';
 import Chart from './components/chart/Chart';
+import Device from './components/device/Device';
 
 export default class App extends Component {
   constructor(props) {
@@ -21,8 +22,8 @@ export default class App extends Component {
           {/* <Menu /> */}
         </View>
         <Chart />
-        <View>{/* <BatteryName />
-          <BatteryLevel /> */}
+        <View>
+          <Device />
         </View>
         {/* <Alarms />
         <ChartBars /> */}
