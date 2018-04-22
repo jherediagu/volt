@@ -25,10 +25,11 @@
     "preset": "jest-expo"
   },
   "dependencies": {
+    "d3-shape": "^1.2.0",
     "eslint-config-airbnb-base": "^12.1.0",
     "expo": "^25.0.0",
     "react": "16.2.0",
     "react-native": "0.52.0",
-    "react-native-highcharts": "^1.0.2"
+    "react-native-svg-charts": "^5.0.0"
   }
 }

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { StyleSheet, View, Text } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 // TODO: import info device
 
 // components
@@ -21,8 +21,7 @@ export default class App extends Component {
           {/* <Menu /> */}
         </View>
         <Chart />
-        <View>
-          {/* <BatteryName />
+        <View>{/* <BatteryName />
           <BatteryLevel /> */}
         </View>
         {/* <Alarms />
@@ -37,9 +36,11 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: 'red',
     alignItems: 'center',
-    justifyContent: 'center',
+    justifyContent: 'flex-start',
   },
   menu: {
+    flex: 1,
     flexDirection: 'row',
+    justifyContent: 'flex-start',
   },
 });
