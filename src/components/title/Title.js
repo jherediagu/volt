@@ -14,8 +14,10 @@ export default class App extends Component {
 const styles = StyleSheet.create({
   title: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    fontSize: 40,
+    top: 40,
+    backgroundColor: 'blue',
+    alignItems: 'flex-start',
+    justifyContent: 'flex-start',
   },
 });
