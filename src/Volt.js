@@ -19,12 +19,12 @@ export default class App extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <View style={styles.menu}>
+        <View style={styles.inline}>
           <Title />
           {/* <Menu /> */}
         </View>
         <Chart />
-        <View style={styles.menu}>
+        <View style={styles.inline}>
           <Device />
           <Battery />
         </View>
@@ -42,7 +42,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'flex-start',
   },
-  menu: {
+  inline: {
     flex: 1,
     flexDirection: 'row',
     justifyContent: 'flex-start',
