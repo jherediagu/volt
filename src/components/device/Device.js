@@ -1,18 +1,26 @@
 import React, { Component } from 'react';
-import { StyleSheet, Text } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
 
 export default class Device extends Component {
   render() {
-    return <Text style={styles.title}>Device</Text>;
+    return (<View style={styles.viewInfo}>
+      <Text style={styles.device}>iPhone X</Text>
+      <Text style={styles.title}>Battery info</Text>
+    </View>);
   }
 }
 
 const styles = StyleSheet.create({
+  device: {
+    fontSize: 15,
+    paddingLeft: 15,
+    fontFamily: 'System',
+  },
+  viewInfo: {
+    flex: 2,
+  },
   title: {
-    flex: 1,
-    height: 110,
-    fontSize: 40,
-    paddingTop: 50,
+    fontSize: 30,
     paddingLeft: 15,
     fontWeight: '700',
     fontFamily: 'System',

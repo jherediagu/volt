@@ -7,6 +7,8 @@ import Title from './components/title/Title';
 // import Menu from './components/menu/Menu';
 import Chart from './components/chart/Chart';
 import Device from './components/device/Device';
+import Battery from './components/battery/Battery';
+import Alarms from './components/alarms/Alarms';
 
 export default class App extends Component {
   constructor(props) {
@@ -22,11 +24,12 @@ export default class App extends Component {
           {/* <Menu /> */}
         </View>
         <Chart />
-        <View>
+        <View style={styles.menu}>
           <Device />
+          <Battery />
         </View>
-        {/* <Alarms />
-        <ChartBars /> */}
+        <Alarms />
+        {/* <ChartBars /> */}
       </View>
     );
   }
