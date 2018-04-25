@@ -9,6 +9,7 @@ import Chart from './components/chart/Chart';
 import Device from './components/device/Device';
 import Battery from './components/battery/Battery';
 import Alarms from './components/alarms/Alarms';
+import AccumulatedChart from './components/accumulated-chart/AccumulatedChart';
 
 export default class App extends Component {
   constructor(props) {
@@ -29,7 +30,7 @@ export default class App extends Component {
           <Battery />
         </View>
         <Alarms />
-        {/* <ChartBars /> */}
+        <AccumulatedChart />
       </View>
     );
   }
@@ -40,7 +41,8 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: 'red',
     alignItems: 'center',
-    justifyContent: 'flex-start',
+    flexDirection: 'column',
+    justifyContent: 'space-between',
   },
   inline: {
     flex: 1,

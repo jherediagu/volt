@@ -43,7 +43,7 @@ export default class Chart extends Component {
       <StackedAreaChart
         style={{
           width: Dimensions.get('window').width,
-          height: 300,
+          height: 240,
           paddingVertical: 16,
         }}
         data={data}

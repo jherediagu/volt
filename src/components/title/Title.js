@@ -10,9 +10,9 @@ export default class Title extends Component {
 const styles = StyleSheet.create({
   title: {
     flex: 1,
-    height: 110,
+    height: 100,
     fontSize: 40,
-    paddingTop: 50,
+    paddingTop: 45,
     paddingLeft: 15,
     fontWeight: '700',
     fontFamily: 'System',
